@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>cart page</title>
+</head>
+
+<body>
+
+    <header id="navbar">
+        <nav class="Nav-bar">
+            <h1 id="Logo">A's</h1>
+
+            <ul class="nav" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+
+            </ul>
+        </nav>
+        <div class="mobile">
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+
+    </header>
+
+    <section id="page-header" class="pagehead3">
+        <div class="Home-container">
+            <h2>#Let's_Talk</h2>
+
+            <p>LEAVE A MESSAGE.We love to hear from you! </p>
+
+        </div>
+    </section>
+    <section id="cart" class="col">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Images</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/55d133c5-8ecd-458f-9a03-56589e74a9af.1d276d5eaed0c73cd99b2a111cb3a1bc.jpeg"
+                            alt="">
+                    </td>
+                    <td>Casual Shirts for Men </td>
+                    <td>$78</td>
+                    <td><input type="number" value="1" style="width: 70px;"></td>
+                    <td>$78</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/e4e273cf-7ee2-4429-9948-9a279cd611ca.6f814a9b48e288e305cddb5692d4e809.webp"
+                            alt="">
+                    </td>
+                    <td>Casual Frock for Girls </td>
+                    <td>$78</td>
+                    <td><input type="number" value="1" style="width: 70px;"></td>
+                    <td>$78</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/-473Wx593H-441602706-black-MODEL.webp" alt="">
+                    </td>
+                    <td>Casual paint for Men </td>
+                    <td>$78</td>
+                    <td><input type="number" value="1" style="width: 70px;"></td>
+                    <td>$78</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="margin-1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="sub-total">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotals</td>
+                    <td>$ 234</td>
+                </tr>
+                <tr>
+                    <td>Shipping </td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>Total </td>
+                    <td>$ 234</td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="col">
+        <div class="column">
+            <h1 id="Logo">A's</h1>
+            <h4>Contact</h4>
+            <p><strong>Adress:</strong> Lorem ipsum dolor sit amet.</p>
+            <p><strong>Phone:</strong> +92 3554684345 </p>
+            <p><strong>Hours:</strong> 10:00_18:00.Mon-Sat</p>
+            <h3>Follow Us</h3>
+            <div class="icons">
+                <i id="face" class="fa-brands fa-facebook"></i>
+                <i id="goog" class="fa-brands fa-google"></i>
+                <i id="insta" class="fa-brands fa-instagram"></i>
+                <i id="twit" class="fa-brands fa-twitter"></i>
+                <i id="you" class="fa-brands fa-youtube"></i>
+                <i id="pin" class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="column">
+            <h4>About</h4>
+            <p>About Us</p>
+            <p>Delivery Information</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions </p>
+            <p>Contact Us </p>
+        </div>
+        <div class="column">
+            <h4>My Account</h4>
+            <p>Sign In</p>
+            <p>View Cart</p>
+            <p>My Wishlist</p>
+            <p>Track My Order</p>
+            <p>Help</p>
+        </div>
+        <div class="column">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <button> <i class="fa-brands fa-google-play"></i>Google Play</button>
+            <button> <i class="fa-brands fa-apple"></i>App Store</button>
+            <p>Secured Payment Gateway</p>
+            <i class="fa-brands fa-cc-visa" id="font"></i>
+        </div>
+
+    </footer>
+    <div class="end">
+        <p>@2024.A's etc-HTML CSS Ecommerce Template</p>
+    </div>
+    <script src="menu.js"></script>
+</body>
+
+</html>
